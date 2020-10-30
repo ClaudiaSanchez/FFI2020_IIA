@@ -1,1 +1,9 @@
 
+
+Para encontrar el mejor valor de corte para la segmentación:
+- Utilizar el canal S o V del espacio de color HSV
+
+- Graficar el canal S en un histograma para visualizar las modas
+
+- Utilizar sklearn.mixture.GaussianMixture para calcular los
+  valores de las dos gaussianas
