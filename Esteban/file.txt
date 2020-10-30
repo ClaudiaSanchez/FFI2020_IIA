@@ -1,0 +1,10 @@
+Pasos para el match
+
+1. Agrupar los pixeles por color con kmeans (7 clusters)
+    - Cada imagen
+
+2. A cada grupo calculado con kmeans, calcular su promedio (hsv)
+
+3. Mapear los grupos de la imagen 1, y de la imagen 2
+   Grupo 1 (imagen 1)  -  Grupo 3 (imagen 2)
+   Grupo 
